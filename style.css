@@ -39,21 +39,25 @@ nav ul li a {
 }
 
 /* Header styles */
+
 header {
-    background-color: #60594e;
-    color: #fff;
-    padding: 20px;
+    background-image: url('mobile_intro_bg.png');
+    color: #000000;
+    
+    padding: 100px;
     text-align: center;
 }
 
 header h1 {
-    font-size: 24px;
+    font-size: 70px;
+    color: #ff1919;
     font-weight: bold;
     margin-bottom: 10px;
 }
 
 header p {
-    font-size: 14px;
+    background-color: #d5d3d3;
+    font-size: 20px;
     line-height: 1.5;
 }
 
