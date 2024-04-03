@@ -1,0 +1,76 @@
+/* styles.css */
+
+/* Reset default styles */
+body, h1, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Navigation bar */
+nav ul {
+    list-style: none;
+    text-align:right ;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+    ali
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #555;
+}
+
+.co-camp-button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+/* Header styles */
+header {
+    background-color: #60594e;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+/* Main program section */
+.main-program {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.program-item {
+    text-align: center;
+}
+
+.program-item img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
